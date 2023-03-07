@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-padre{
+    width: 80%;
+    box-sizing: content-box;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    margin: 0 auto;
+}
+
+.fucsia{
+    width: 200px;
+    min-width: 30%;
+    height: 100px;
+    background: fuchsia;
+
+    border-radius: 20px;
+}
+
+.amarillo{
+    width: 500px;
+    min-width: 50%;
+    height: 100px;
+    background: yellow;
+
+    border-radius: 20px;
+}
+
+.contenedor-padre{
+    width: 100%;
+    height: 500px;
+    box-sizing: content-box;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.caja1{
+    width: 300px;
+    flex-grow: 1;
+    background: red;
+    border-radius: 20px;
+}
+
+.caja2{
+    width: 300px;
+    flex-grow: 1;
+    background: blue;
+    border-radius: 20px;
+}
+
+.caja3{
+    width: 300px;
+    flex-grow: 1;
+    background: green;
+    border-radius: 20px;
+}
+
+.cuadro{
+    width: 100%;
+    height: 300px;
+
+    background: fuchsia;
+    border: 1px black solid;
+
+    margin-top: 15px;
+    border-radius: 20px;
+}
+
+.contenedor-abuelo{
+    width: 80%;
+    box-sizing: content-box;
+    margin: 0 auto;
+    gap: 10px;
+
+    margin-top: 20px;
+
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+.contenedor1{
+    min-width: 80%;
+    border: black solid ;
+}
